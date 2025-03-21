@@ -7,129 +7,57 @@ const categories = [
     },
     {
       id: 2,
-      src: "/images/steak-category.png",
-      alt: "استیک | STEAK",
-      label: "استیک | STEAK"
+      src: "/images/pasta-category.png",
+      alt: "ناهار و شام | MAINCOURSE",
+      label: "ناهار و شام | MAINCOURSE"
     },
     {
       id: 3,
-      src: "/images/pizza-category.png",
-      alt: "پیتزا | PIZZA",
-      label: "پیتزا | PIZZA"
+      src: "/images/coffee-category.png",
+      alt: " نوشیدنی گرم | HOT DRINK",
+      label: " نوشیدنی گرم | HOT DRINK"
     },
     {
       id: 4,
-      src: "/images/burger-category.png",
-      alt: "برگر | BURGER",
-      label: "برگر | BURGER"
+      src: "/images/Brewing-Coffee.svg",
+      alt: "بر پایه اسپرسو | ESPRESSO",
+      label: "بر پایه اسپرسو | ESPRESSO"
     },
     {
       id: 5,
-      src: "/images/hotdog-category.png",
-      alt: "هات داگ | HOTDOG",
-      label: "هات داگ | HOTDOG"
+      src: "/images/coffee-category.png",
+      alt: "قهوه دمی | BREWCOFFEE",
+      label: "قهوه دمی | BREWCOFFEE"
     },
     {
       id: 6,
-      src: "/images/sandwich-category.png",
-      alt: "ساندویچ | SANDWICH",
-      label: "ساندویچ | SANDWICH"
+      src: "/images/herbal-tea-category.png",
+      alt: " دمنوش | TEA HERBAL",
+      label: " دمنوش | TEA HERBAL"
     },
     {
       id: 7,
-      src: "/images/pasta-category.png",
-      alt: "پاستا | PASTA",
-      label: "پاستا | PASTA"
+      src: "/images/ice-coffee-category.png",
+      alt: " سرد نوش | ICE DRINK",
+      label: " سرد نوش | ICE DRINK"
     },
     {
       id: 8,
-      src: "/images/fried-chicken-category.png",
-      alt: "مرغ سوخاری | FRIED CHICKEN",
-      label: "مرغ سوخاری | FRIED CHICKEN"
+      src: "/images/juice-category.png",
+      alt: "نوشیدنی سرد | COLD DRINK",
+      label: "نوشیدنی سرد | COLD DRINK"
     },
     {
       id: 9,
-      src: "/images/chicken-category.png",
-      alt: "مرغ | CHICKEN",
-      label: "مرغ | CHICKEN"
+      src: "/images/milk-shake-category.png",
+      alt: " شیک | SHAKE",
+      label: " شیک | SHAKE"
     },
     {
       id: 10,
-      src: "/images/salad-category.png",
-      alt: "سالاد | SALAD",
-      label: "سالاد | SALAD"
-    },
-    {
-      id: 11,
-      src: "/images/appetizer-category.png",
-      alt: "پیش غذا | APPETIZER",
-      label: "پیش غذا | APPETIZER"
-    },
-    {
-      id: 12,
-      src: "/images/potato-category.png",
-      alt: "سیب زمینی | FRENCH FRIES",
-      label: "سیب زمینی | FRENCH FRIES"
-    },
-    {
-      id: 13,
-      src: "/images/coffee-category.png",
-      alt: "قهوه | COFFEE",
-      label: "قهوه | COFFEE"
-    },
-    {
-      id: 14,
-      src: "/images/herbal-tea-category.png",
-      alt: "چای و دمنوش | TEA HERBAL",
-      label: "چای و دمنوش | TEA HERBAL"
-    },
-    {
-      id: 15,
-      src: "/images/ice-coffee-category.png",
-      alt: "آیس کافی | ICE COFFEE",
-      label: "آیس کافی | ICE COFFEE"
-    },
-    {
-      id: 16,
-      src: "/images/milk-shake-category.png",
-      alt: "میلک شیک | MILK SHAKE",
-      label: "میلک شیک | MILK SHAKE"
-    },
-    {
-      id: 17,
-      src: "/images/smoothi-category.png",
-      alt: "اسموتی | SMOOTHIE",
-      label: "اسموتی | SMOOTHIE"
-    },
-    {
-      id: 18,
-      src: "/images/juice-category.png",
-      alt: "آبمیوه | FRUIT JUICE",
-      label: "آبمیوه | FRUIT JUICE"
-    },
-    {
-      id: 19,
       src: "/images/toopyng-category.png",
-      alt: "تاپینگ | TOPPING",
-      label: "تاپینگ | TOPPING"
-    },
-    {
-      id: 20,
-      src: "/images/cupcake-category.png",
-      alt: "کاپ کیک | CUP CAKE",
-      label: "کاپ کیک | CUP CAKE"
-    },
-    {
-      id: 21,
-      src: "/images/delester-category.png",
-      alt: "دلستر | DELESTER",
-      label: "دلستر | DELESTER"
-    },
-    {
-      id: 22,
-      src: "/images/soda-category.png",
-      alt: "نوشیدنی ها | SOFT DRINKS",
-      label: "نوشیدنی ها | SOFT DRINKS"
+      alt: "کیک و دسر | DESSERT",
+      label: "کیک و دسر | DESSERT"
     },
     
   ];

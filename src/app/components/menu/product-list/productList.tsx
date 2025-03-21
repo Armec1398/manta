@@ -76,9 +76,6 @@ const updateSelectedProducts = (updatedProduct: Product) => {
   });
 };
 
-  const openPopup = (src: string) => {
-    setPopupImage(src);
-  };
 
   const closePopup = () => {
     setPopupImage(null);
@@ -137,13 +134,13 @@ const updateSelectedProducts = (updatedProduct: Product) => {
                   {categoryProducts.map((product) => (
                     <article className='product-card px-2 pt-3 pb-1 mb-4 mx-2' key={product.id}>
                       <div className='w-full flex justify-start mb-5'>
-                        <div className='flex justify-start product-img' onClick={() => openPopup(product.src)}>
+                        <div className='flex justify-start product-img' >
                           <Image
                             src={product.src}
                             width={112}
                             height={128}
                             alt={product.title}
-                            style={{ cursor: 'pointer' }}
+                            style={{ cursor: 'pointer' , backgroundColor:'#f8f8f9' }}
                           />
                         </div>
                         <div className='product-description flex flex-col justify-start items-start p-2 pb-0 w-full'>
@@ -232,6 +229,7 @@ const updateSelectedProducts = (updatedProduct: Product) => {
                                     width={112}
                                     height={128}
                                     alt={product.title}
+                                    style={{ backgroundColor:'#f8f8f9' }}
                                   />
                                 </div>
                                 <div className='product-description flex flex-col justify-start items-start p-2 pb-0 w-full'>
