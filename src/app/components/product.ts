@@ -84,6 +84,15 @@ const productsData = [
         category:2,
         id:10,
         src: "/images/placeholder.png",
+        title: "پاستا پستو",
+        description:"( پنیر ، قارچ ، فیله مرغ ، سس پستو )",
+        price:355,
+        count:0,
+    },
+    {
+        category:2,
+        id:11,
+        src: "/images/placeholder.png",
         title: "پنینی بیکن",
         description:"",
         price:242,
@@ -91,7 +100,7 @@ const productsData = [
     },
     {
         category:2,
-        id:11,
+        id:12,
         src: "/images/placeholder.png",
         title: "سیب زمینی ساده",
         description:"",
@@ -100,7 +109,7 @@ const productsData = [
     },
     {
         category:2,
-        id:12,
+        id:13,
         src: "/images/placeholder.png",
         title: "استیک سینه مرغ",
         description:"",
@@ -109,7 +118,7 @@ const productsData = [
     },
     {
         category:2,
-        id:13,
+        id:14,
         src: "/images/placeholder.png",
         title: "پنینی بوقلمون",
         description:"",
@@ -118,7 +127,7 @@ const productsData = [
     },
     {
         category:2,
-        id:14,
+        id:15,
         src: "/images/placeholder.png",
         title: "سیب زمینی ویژه مانتا",
         description:"",
@@ -127,7 +136,7 @@ const productsData = [
     },
     {
         category:3,
-        id:15,
+        id:16,
         src: "/images/placeholder.png",
         title: "هات چاکلت",
         description:"",
@@ -136,7 +145,7 @@ const productsData = [
     },
     {
         category:3,
-        id:16,
+        id:17,
         src: "/images/placeholder.png",
         title: "شیر کاکائو",
         description:"",
@@ -145,7 +154,7 @@ const productsData = [
     },
     {
         category:3,
-        id:17,
+        id:18,
         src: "/images/placeholder.png",
         title: "چای ماسالا",
         description:"",
@@ -154,7 +163,7 @@ const productsData = [
     },
     {
         category:3,
-        id:18,
+        id:19,
         src: "/images/placeholder.png",
         title: "چای کرک",
         description:"",
@@ -163,7 +172,7 @@ const productsData = [
     },
     {
         category:3,
-        id:19,
+        id:20,
         src: "/images/placeholder.png",
         title: "سیب دارچین",
         description:"",
@@ -172,7 +181,7 @@ const productsData = [
     },
     {
         category:4,
-        id:20,
+        id:21,
         src: "/images/placeholder.png",
         title: "اسپرسو",
         description:"70/20 روبوستا",
@@ -181,7 +190,7 @@ const productsData = [
     },
     {
         category:4,
-        id:21,
+        id:22,
         src: "/images/placeholder.png",
         title: "اسپرسو",
         description:"100 عربیکا",
@@ -190,7 +199,7 @@ const productsData = [
     },
     {
         category:4,
-        id:22,
+        id:23,
         src: "/images/placeholder.png",
         title: "آمریکانو",
         description:"70/20 روبوستا",
@@ -199,7 +208,7 @@ const productsData = [
     },
     {
         category:4,
-        id:23,
+        id:24,
         src: "/images/placeholder.png",
         title: "آمریکانو",
         description:"100 عربیکا",
@@ -208,25 +217,25 @@ const productsData = [
     },
     {
         category:4,
-        id:24,
+        id:25,
         src: "/images/placeholder.png",
-        title: "کاپاچینو",
+        title: "کاپوچینو",
         description:"70/20 روبوستا",
         price:96,
         count:0,
     },
     {
         category:4,
-        id:25,
+        id:26,
         src: "/images/placeholder.png",
-        title: "کاپاچینو",
+        title: "کاپوچینو",
         description:"100 عربیکا",
         price:108,
         count:0,
     },
     {
         category:4,
-        id:26,
+        id:27,
         src: "/images/placeholder.png",
         title: "لاته",
         description:"70/20 روبوستا",
@@ -235,7 +244,7 @@ const productsData = [
     },
     {
         category:4,
-        id:27,
+        id:28,
         src: "/images/placeholder.png",
         title: "لاته",
         description:"100 عربیکا",
@@ -244,7 +253,7 @@ const productsData = [
     },
     {
         category:4,
-        id:28,
+        id:29,
         src: "/images/placeholder.png",
         title: "موکا",
         description:"70/20 روبوستا",
@@ -253,7 +262,7 @@ const productsData = [
     },
     {
         category:4,
-        id:29,
+        id:30,
         src: "/images/placeholder.png",
         title: "موکا",
         description:"100 عربیکا",
@@ -262,7 +271,7 @@ const productsData = [
     },
     {
         category:4,
-        id:30,
+        id:31,
         src: "/images/placeholder.png",
         title: "کارامل ماکیاتو",
         description:"70/20 روبوستا",
@@ -271,7 +280,7 @@ const productsData = [
     },
     {
         category:4,
-        id:31,
+        id:32,
         src: "/images/placeholder.png",
         title: "کارامل ماکیاتو",
         description:"100 عربیکا",
@@ -280,7 +289,7 @@ const productsData = [
     },
     {
         category:4,
-        id:32,
+        id:33,
         src: "/images/placeholder.png",
         title: "کن پانا",
         description:"70/20 روبوستا",
@@ -289,7 +298,7 @@ const productsData = [
     },
     {
         category:4,
-        id:33,
+        id:34,
         src: "/images/placeholder.png",
         title: "کن پانا",
         description:"100 عربیکا",
@@ -298,7 +307,7 @@ const productsData = [
     },
     {
         category:4,
-        id:34,
+        id:35,
         src: "/images/placeholder.png",
         title: "آفوگاتو",
         description:"70/20 روبوستا",
@@ -307,7 +316,7 @@ const productsData = [
     },
     {
         category:4,
-        id:35,
+        id:36,
         src: "/images/placeholder.png",
         title: "آفوگاتو",
         description:"100 عربیکا",
@@ -316,7 +325,7 @@ const productsData = [
     },
     {
         category:4,
-        id:36,
+        id:37,
         src: "/images/placeholder.png",
         title: "آیس آمریکانو",
         description:"70/20 روبوستا",
@@ -325,7 +334,7 @@ const productsData = [
     },
     {
         category:4,
-        id:37,
+        id:38,
         src: "/images/placeholder.png",
         title: "آیس آمریکانو",
         description:"100 عربیکا",
@@ -334,7 +343,7 @@ const productsData = [
     },
     {
         category:4,
-        id:38,
+        id:39,
         src: "/images/placeholder.png",
         title: "آیس لاته",
         description:"70/20 روبوستا",
@@ -343,7 +352,7 @@ const productsData = [
     },
     {
         category:4,
-        id:39,
+        id:40,
         src: "/images/placeholder.png",
         title: "آیس لاته",
         description:"100 عربیکا",
@@ -352,7 +361,7 @@ const productsData = [
     },
     {
         category:4,
-        id:40,
+        id:41,
         src: "/images/placeholder.png",
         title: "آیس موکا",
         description:"70/20 روبوستا",
@@ -361,7 +370,7 @@ const productsData = [
     },
     {
         category:4,
-        id:41,
+        id:42,
         src: "/images/placeholder.png",
         title: "آیس موکا",
         description:"100 عربیکا",
@@ -370,7 +379,7 @@ const productsData = [
     },
     {
         category:4,
-        id:42,
+        id:43,
         src: "/images/placeholder.png",
         title: "آیس کارامل ماکیاتو",
         description:"70/20 روبوستا",
@@ -379,7 +388,7 @@ const productsData = [
     },
     {
         category:4,
-        id:43,
+        id:44,
         src: "/images/placeholder.png",
         title: "آیس کارامل ماکیاتو",
         description:"100 عربیکا",
@@ -388,7 +397,7 @@ const productsData = [
     },
     {
         category:5,
-        id:44,
+        id:45,
         src: "/images/placeholder.png",
         title: "قهوه ترک",
         description:"",
@@ -397,7 +406,7 @@ const productsData = [
     },
     {
         category:5,
-        id:45,
+        id:46,
         src: "/images/placeholder.png",
         title: "قهوه فرانسه",
         description:"",
@@ -406,7 +415,7 @@ const productsData = [
     },
     {
         category:5,
-        id:46,
+        id:47,
         src: "/images/placeholder.png",
         title: "قهوه V60",
         description:"",
@@ -415,7 +424,7 @@ const productsData = [
     },
     {
         category:5,
-        id:47,
+        id:48,
         src: "/images/placeholder.png",
         title: "قهوه کِمکس",
         description:"",
@@ -424,7 +433,7 @@ const productsData = [
     },
     {
         category:6,
-        id:48,
+        id:49,
         src: "/images/placeholder.png",
         title: "دمنوش میوه",
         description:"( سیب، به و ... )",
@@ -433,7 +442,7 @@ const productsData = [
     },
     {
         category:6,
-        id:49,
+        id:50,
         src: "/images/placeholder.png",
         title: "دمنوش آرامش",
         description:"( گل گاو زبان، بابونه، ... )",
@@ -442,7 +451,7 @@ const productsData = [
     },
     {
         category:6,
-        id:50,
+        id:51,
         src: "/images/placeholder.png",
         title: "دمنوش زعفران",
         description:"( زعفران، گلاب، پرتقال، عسل و ... )",
@@ -451,7 +460,7 @@ const productsData = [
     },
     {
         category:6,
-        id:51,
+        id:52,
         src: "/images/placeholder.png",
         title: "دمنوش سیب و زنجبیل",
         description:"",
@@ -460,7 +469,7 @@ const productsData = [
     },
     {
         category:6,
-        id:52,
+        id:53,
         src: "/images/placeholder.png",
         title: "چای سبز و لیمو",
         description:"",
@@ -469,7 +478,7 @@ const productsData = [
     },
     {
         category:6,
-        id:53,
+        id:54,
         src: "/images/placeholder.png",
         title: "چای سیاه",
         description:"",
@@ -478,7 +487,7 @@ const productsData = [
     },
     {
         category:7,
-        id:54,
+        id:55,
         src: "/images/placeholder.png",
         title: "سرد نوش ویژه مانتا",
         description:"( خاکشیر، کاسنی، شاطره، لیمو )",
@@ -487,7 +496,7 @@ const productsData = [
     },
     {
         category:7,
-        id:55,
+        id:56,
         src: "/images/placeholder.png",
         title: "خیار سکنجبین",
         description:"",
@@ -496,7 +505,7 @@ const productsData = [
     },
     {
         category:8,
-        id:56,
+        id:57,
         src: "/images/placeholder.png",
         title: "اوشن",
         description:"( آلوئورا، بلوکاراسائو، لیمو و ... )",
@@ -505,7 +514,7 @@ const productsData = [
     },
     {
         category:8,
-        id:57,
+        id:58,
         src: "/images/placeholder.png",
         title: "پارادایس",
         description:"( انار، سودا و ... )",
@@ -514,7 +523,7 @@ const productsData = [
     },
     {
         category:8,
-        id:58,
+        id:59,
         src: "/images/placeholder.png",
         title: "پیناکولادا",
         description:"( آناناس ، نارگیل و ... )",
@@ -523,7 +532,7 @@ const productsData = [
     },
     {
         category:8,
-        id:59,
+        id:60,
         src: "/images/placeholder.png",
         title: "منگو چری",
         description:"( انبه، آلبالو، نعنا و ... )",
@@ -532,7 +541,7 @@ const productsData = [
     },
     {
         category:8,
-        id:60,
+        id:61,
         src: "/images/placeholder.png",
         title: "جینجر لایم",
         description:"( زنجبیل تازه، لیمو و سودا )",
@@ -541,7 +550,7 @@ const productsData = [
     },
     {
         category:8,
-        id:61,
+        id:62,
         src: "/images/placeholder.png",
         title: "رِد موهیتو",
         description:"( توت فرنگی، لیمو، نعنا و ... )",
@@ -550,7 +559,7 @@ const productsData = [
     },
     {
         category:8,
-        id:62,
+        id:63,
         src: "/images/placeholder.png",
         title: "موهیتو کوبایی",
         description:"( لیمو، نعنا، سودا و ... )",
@@ -559,7 +568,7 @@ const productsData = [
     },
     {
         category:8,
-        id:63,
+        id:64,
         src: "/images/placeholder.png",
         title: "تروپیکال مینت",
         description:"( پشن فروت، لیمو، آناناس، نعنا و ... )",
@@ -568,7 +577,7 @@ const productsData = [
     },
     {
         category:8,
-        id:64,
+        id:65,
         src: "/images/placeholder.png",
         title: "لیموناد",
         description:"( لیمو، سودا و ... )",
@@ -577,7 +586,7 @@ const productsData = [
     },
     {
         category:8,
-        id:65,
+        id:66,
         src: "/images/placeholder.png",
         title: "آب هندوانه",
         description:"",
@@ -586,7 +595,7 @@ const productsData = [
     },
     {
         category:9,
-        id:66,
+        id:67,
         src: "/images/placeholder.png",
         title: "ویژه مانتا",
         description:"",
@@ -595,7 +604,7 @@ const productsData = [
     },
     {
         category:9,
-        id:67,
+        id:68,
         src: "/images/placeholder.png",
         title: "لوتوس فندق",
         description:"",
@@ -604,7 +613,7 @@ const productsData = [
     },
     {
         category:9,
-        id:68,
+        id:69,
         src: "/images/placeholder.png",
         title: "شیک نوتلا",
         description:"",
@@ -613,7 +622,7 @@ const productsData = [
     },
     {
         category:9,
-        id:69,
+        id:70,
         src: "/images/placeholder.png",
         title: "بادام زمینی و پنیر",
         description:"",
@@ -622,7 +631,7 @@ const productsData = [
     },
     {
         category:9,
-        id:70,
+        id:71,
         src: "/images/placeholder.png",
         title: "شیک توت فرنگی",
         description:"",
@@ -631,7 +640,7 @@ const productsData = [
     },
     {
         category:9,
-        id:71,
+        id:72,
         src: "/images/placeholder.png",
         title: "شیک کرک",
         description:"",
@@ -640,7 +649,7 @@ const productsData = [
     },
     {
         category:10,
-        id:72,
+        id:73,
         src: "/images/placeholder.png",
         title: "کیک شکلاتی",
         description:"",
@@ -649,18 +658,9 @@ const productsData = [
     },
     {
         category:10,
-        id:73,
-        src: "/images/placeholder.png",
-        title: "کیک نسکافه",
-        description:"",
-        price:0,
-        count:0,
-    },
-    {
-        category:10,
         id:74,
         src: "/images/placeholder.png",
-        title: "کیک سر شیر",
+        title: "کیک خامه شکلاتی",
         description:"",
         price:0,
         count:0,
@@ -669,7 +669,7 @@ const productsData = [
         category:10,
         id:75,
         src: "/images/placeholder.png",
-        title: "چیز کیک",
+        title: "کیک نسکافه",
         description:"",
         price:0,
         count:0,
@@ -677,6 +677,24 @@ const productsData = [
     {
         category:10,
         id:76,
+        src: "/images/placeholder.png",
+        title: "کیک سر شیر",
+        description:"",
+        price:0,
+        count:0,
+    },
+    {
+        category:10,
+        id:77,
+        src: "/images/placeholder.png",
+        title: "چیز کیک",
+        description:"",
+        price:0,
+        count:0,
+    },
+    {
+        category:10,
+        id:78,
         src: "/images/placeholder.png",
         title: "حلوا عربی",
         description:"",

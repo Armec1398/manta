@@ -1,7 +1,7 @@
 const brand = [
     {
       id:1,
-      src: "/images/bean.png",
+      src: "/images/manta.png",
       alt: "لوگو",
       label: "کافه مانتا"
     },
